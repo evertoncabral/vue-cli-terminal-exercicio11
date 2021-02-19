@@ -1,5 +1,5 @@
 <template>
-    <li></li>
+    <li @click="$emit('increment')">click</li>
 
 </template>
 
